@@ -1,6 +1,7 @@
 
-import { Link, NavLink, Outlet } from 'react-router'
+import {  NavLink, Outlet } from 'react-router'
 import './App.css'
+import Fdocument from './Components/Fdocument/Fdocument'
 
 
 function App() {
@@ -42,7 +43,7 @@ function App() {
       <Outlet></Outlet>
       <div>
         <footer>
-          <h2>this is the footer</h2>
+          <Fdocument></Fdocument>
         </footer>
       </div>
       
