@@ -3,7 +3,7 @@ import { MdEmail } from "react-icons/md";
 
 const Contact = () => {
     return (
-        <div className="flex gap-96 p-10">
+        <div className=" md:flex gap-96 p-10">
             
             <div>
                 <h2>Let's Connect With us</h2>
@@ -19,7 +19,7 @@ const Contact = () => {
                 </div>
 
             </div>
-            <div>
+            <div className=" mt-4">
                 <form>
                     <input className="bg-blue-400 rounded-lg p-2 text-white" type="text" name="text" placeholder="Your Name" id="" />
                     <br />

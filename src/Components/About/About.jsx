@@ -12,7 +12,7 @@ const About = () => {
             }} className="h-[400px] p-10"
             >
                <h2 className='text-4xl text-white font-bold text-center mt-4'>Between pages and silence, stories come alive.</h2>
-               <p className='text-2xl text-blue-700 font-bold text-center mt-2'>  Every book holds a world waiting to be discovered —  
+               <p className='md:text-2xl text-blue-700 font-bold text-center mt-2'>  Every book holds a world waiting to be discovered —  
                         a journey through ink, paper, and imagination.  
                         Welcome to a place where words whisper,  
                         and every chapter feels like home.</p>
@@ -21,12 +21,12 @@ const About = () => {
             <div>
                 <h2 className='text-purple-500 text-4xl text-center mt-10 font-bold'>Our Library </h2>
             </div>
-            <div className='grid grid-cols-2 gap-4 mt-6'>
+            <div className=' md:grid grid-cols-2 gap-4 mt-6'>
                 <div>
                     <img className='h-40% rounded-lg w-auto' src={bookshop} alt="" />
                 </div>
                 <div className='bg-indigo-300 rounded-lg p-2'> 
-                    <p className='text-x mt-6 '>
+                    <p className='md:text-x mt-6 '>
                      Welcome to a place where every shelf holds a new journey.
                     From timeless classics to modern-day masterpieces, our collection speaks to every reader’s soul.
                     The scent of fresh pages and the warmth of old bindings invite you to stay a little longer.

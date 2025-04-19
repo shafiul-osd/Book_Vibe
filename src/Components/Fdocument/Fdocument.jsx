@@ -5,7 +5,7 @@ import { FaFacebookF } from "react-icons/fa6";
 const Fdocument = () => {
     return (
         <div>
-            <div className="grid grid-cols-3 bg-black text-white px-10 py-2 rounded-sm">
+            <div className="grid grid-cols-3 bg-black text-white md:overflow-hidden px-10 py-2 rounded-sm">
           <div>
             {/* service er kaj kora hoice ay part a */}
             <h2 className="text-gray-300 font-bold text-2xl">Service</h2>
