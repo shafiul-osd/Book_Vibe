@@ -53,9 +53,9 @@
     },
     {
       "bookId": 5,
-      "bookName": "https://i.ibb.co/cc5ZG87w/final-book.jpg",
+      "bookName": "Book of the brain",
       "author": "Sophie Hayes",
-      "image": "https://example.com/book5.jpg",
+      "image": "https://i.ibb.co/cc5ZG87w/final-book.jpg",
       "review": "Smart and futuristic. Perfect for fans of tech thrillers.",
       "totalPages": 350,
       "rating": 4.8,
@@ -66,9 +66,9 @@
     },
     {
       "bookId": 6,
-      "bookName": "https://i.ibb.co/Gf9NnwHB/garden-book.jpg",
+      "bookName": " Gardent related book",
       "author": "Noah Bennett",
-      "image": "https://example.com/book6.jpg",
+      "image": "https://i.ibb.co/Gf9NnwHB/garden-book.jpg",
       "review": "Poetic and haunting — explores loss and love in a magical setting.",
       "totalPages": 275,
       "rating": 4.4,

@@ -18,7 +18,7 @@ const Books = () => {
            <div className="text-center font-bold text-2xl">
             <h2>Books: {books.length}</h2>
            </div>
-           <div>
+           <div className="md:grid grid-cols-3 gap-2">
             {/* parrent component of all the books */}
                {
                 books.map(book=><Book book={book} key={book.id}></Book>)
