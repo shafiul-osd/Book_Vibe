@@ -1,14 +1,13 @@
 import { FaRegStar } from "react-icons/fa6";
+import { Link } from "react-router";
 
 const Book = ({book}) => {
-    const handlecard = ()=>{
-        console.log("i am cheking the image is here or not here")
-    }
-    const {image,bookName,author} = book
+   
+    const {id,image,bookName,author} = book
     return (
         <div>
-                <button onClick={handlecard} className="border border-gray-400 rounded-lg ">
-                <div className="p-4">
+               <Link to={`/book/${book.bookId}`}>
+               <div className="p-4">
                 <div className="bg-gray-200 rounded-lg p-4">
                         <img className="w-80 h-72 object-cover rounded-lg " src={image} alt="" />
                     </div>
@@ -35,7 +34,7 @@ const Book = ({book}) => {
                             </div>
                         </div>
                     </div>
-                </button>
+               </Link>
         </div>
     );
 };

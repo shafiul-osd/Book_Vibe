@@ -10,6 +10,7 @@ import About from './Components/About/About.jsx';
 import Contact from './Components/Contact/Contact.jsx';
 import Listbook from './Components/Listedbook/Listbook.jsx';
 import Wishlistbook from './Components/Wishlistbook/Wishlistbook.jsx';
+import Bookdetiels from './Components/Bookdetiels/Bookdetiels.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -22,6 +23,7 @@ createRoot(document.getElementById('root')).render(
       <Route path="listbook" element={<Listbook></Listbook>}></Route>
       <Route path='wishlist' element={<Wishlistbook></Wishlistbook>}></Route>
       </Route>
+      <Route path="/book/:id" element={<Bookdetiels></Bookdetiels>}></Route>
       <Route path="about" element={<About></About>}></Route>
       <Route path="contact" element={<Contact></Contact>}></Route>
       
