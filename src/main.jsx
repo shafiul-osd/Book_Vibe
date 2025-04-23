@@ -8,6 +8,8 @@ import ListedBooks from './Components/ListedBooks/ListedBooks.jsx';
 import PagesToRead from './Components/PagesToRead/PagesToRead.jsx';
 import About from './Components/About/About.jsx';
 import Contact from './Components/Contact/Contact.jsx';
+import Listbook from './Components/Listedbook/Listbook.jsx';
+import Wishlistbook from './Components/Wishlistbook/Wishlistbook.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -16,7 +18,10 @@ createRoot(document.getElementById('root')).render(
       <Route element={<App></App>}>
       <Route index element={<Home></Home>}></Route>
       <Route path="/listedbooks" element={<ListedBooks></ListedBooks>}></Route>
-      <Route path="/pagestoread" element={<PagesToRead></PagesToRead>}></Route>
+      <Route path="/pagestoread" element={<PagesToRead></PagesToRead>}>
+      <Route path="listbook" element={<Listbook></Listbook>}></Route>
+      <Route path='wishlist' element={<Wishlistbook></Wishlistbook>}></Route>
+      </Route>
       <Route path="about" element={<About></About>}></Route>
       <Route path="contact" element={<Contact></Contact>}></Route>
       
