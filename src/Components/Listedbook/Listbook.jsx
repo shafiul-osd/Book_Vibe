@@ -1,12 +1,33 @@
-import React from 'react';
+// import { useEffect, useState } from "react";
 
-const Listbook = () => {
-    return (
-        <div>
-            <h2>listbook</h2>
-            <p>this is the listedbook and this section is made by me and this is quit book</p>
-        </div>
-    );
-};
 
-export default Listbook;
+// const Listbook = () => {
+//     const [books,setbook]=useState([])
+//     // useEffect(()=>{
+//     //     const stroadbook = JSON.parse(localStorage.getItem('pagesToRead')) ||[]
+
+//     //     setbook(stroadbook)
+//     // },[])
+//     // return (
+//         <div>
+//     //        {
+//     //         books.length === 0 ? (<p>no book added</p>):(
+
+//     //             <ul>
+//     //                 (
+//     //                     books.map((book,index)=>{
+//     //                         <li key={index}></li>
+                           
+                            
+//     //                     })
+//     //                 )
+                       
+                        
+//     //             </ul>
+//     //         )
+//     //        }
+//         </div>
+    // );
+// };
+
+// export default Listbook;

@@ -3,8 +3,12 @@ import { NavLink, Outlet } from 'react-router';
 import './App.css';
 import Fdocument from './Components/Fdocument/Fdocument';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import { Toaster } from 'react-hot-toast';
+
+
 
 function App() {
+ 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -13,6 +17,7 @@ function App() {
 
   return (
     <>
+     <Toaster></Toaster>
       <div className=''>
         {/* Navbar Container */}
         <div className='flex items-center justify-between px-6 py-4 md:py-6'>
